@@ -6,20 +6,32 @@
     <title>Document</title>
     <link rel="stylesheet" href="/#style.css">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style>
+        ul li{
+            padding: 8px 16px;
+            border-radius: 5px;
+        }
+        ul li :hover{
+            color: rgb(167, 73, 167);
+            background-color: rgb(183, 189, 193);
+            padding: 8px 12px;
+        }
+     </style>
 </head>
 <body>
-    <nav class="bg-red-200 flex items-center justify-around">
-        <div>
-            <h2>S</h2>
-            <h1>Sujata</h1>
-            <ul>
+    <nav class="bg-slate-50 flex items-center justify-around py-6 shadow-md">
+        <div class="flex gap-3 items-center">
+            <h2 class="text-2xl font-semibold text-white bg bg-purple-500 px-4 py-2 rounded-full">S</h2>
+            <h1 class="text-3xl font-semibold">Sujata</h1>
+            </div>
+            <ul class="flex gap-12 font-medium">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Service</a></li>
             </ul>
-        </div>
+        
     </nav>
 </body>
 </html>
